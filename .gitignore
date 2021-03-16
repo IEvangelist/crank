@@ -293,5 +293,3 @@ eventpipe.netperf
 *.netperf
 *.bench.json
 BenchmarkDotNet.Artifacts/
-/src/Microsoft.Crank.AzureDevOpsWorker/StringExtensions.cs
-/src/Microsoft.Crank.AzureDevOpsWorker
