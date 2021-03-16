@@ -7,6 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{995FCFF9-E5F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BAF239DE-04E9-428E-A6D6-98D4C6CFB9E3}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
 		action.yml = action.yml
 		Dockerfile = Dockerfile
 		NuGet.Config = NuGet.Config
@@ -51,6 +54,27 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Crank.EventSources", "src\Microsoft.Crank.EventSources\Microsoft.Crank.EventSources.csproj", "{2C9E2686-6C86-4D32-B57E-EDC8047EB8B8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Crank.Jobs.HttpClient", "src\Microsoft.Crank.Jobs.HttpClient\Microsoft.Crank.Jobs.HttpClient.csproj", "{7BAB625A-3338-4BF1-BD0C-D5ECCAC254B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C46C04F4-2A79-4499-94CA-C6F05CD297DB}"
+	ProjectSection(SolutionItems) = preProject
+		docs\benchmarking_docker.md = docs\benchmarking_docker.md
+		docs\development.md = docs\development.md
+		docs\dotnet_versions.md = docs\dotnet_versions.md
+		docs\event_counters.md = docs\event_counters.md
+		docs\getting_started.md = docs\getting_started.md
+		docs\local_application.md = docs\local_application.md
+		docs\microbenchmarks.md = docs\microbenchmarks.md
+		docs\post_processing.md = docs\post_processing.md
+		docs\README.md = docs\README.md
+		docs\setup_linux.md = docs\setup_linux.md
+		docs\storing_results.md = docs\storing_results.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reference", "reference", "{FADD52C5-BBBE-499F-A1B4-1615897BAD4A}"
+	ProjectSection(SolutionItems) = preProject
+		docs\reference\architecture.md = docs\reference\architecture.md
+		docs\reference\benchmarks.svg = docs\reference\benchmarks.svg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -138,6 +162,7 @@ Global
 		{BB0422DA-E7C5-47FB-8EF5-E34F57B51E44} = {995FCFF9-E5F6-4BDD-8E5B-FBDEA21145F9}
 		{2C9E2686-6C86-4D32-B57E-EDC8047EB8B8} = {995FCFF9-E5F6-4BDD-8E5B-FBDEA21145F9}
 		{7BAB625A-3338-4BF1-BD0C-D5ECCAC254B5} = {995FCFF9-E5F6-4BDD-8E5B-FBDEA21145F9}
+		{FADD52C5-BBBE-499F-A1B4-1615897BAD4A} = {C46C04F4-2A79-4499-94CA-C6F05CD297DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C48AD7EE-82B1-4307-A869-3FC14AC9B21F}
