@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{995FCFF9-E5F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BAF239DE-04E9-428E-A6D6-98D4C6CFB9E3}"
 	ProjectSection(SolutionItems) = preProject
+		action.yml = action.yml
+		Dockerfile = Dockerfile
 		NuGet.Config = NuGet.Config
 		README.md = README.md
 	EndProjectSection
@@ -48,7 +50,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Crank.AzureDevOps
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Crank.EventSources", "src\Microsoft.Crank.EventSources\Microsoft.Crank.EventSources.csproj", "{2C9E2686-6C86-4D32-B57E-EDC8047EB8B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Crank.Jobs.HttpClient", "src\Microsoft.Crank.Jobs.HttpClient\Microsoft.Crank.Jobs.HttpClient.csproj", "{7BAB625A-3338-4BF1-BD0C-D5ECCAC254B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Crank.Jobs.HttpClient", "src\Microsoft.Crank.Jobs.HttpClient\Microsoft.Crank.Jobs.HttpClient.csproj", "{7BAB625A-3338-4BF1-BD0C-D5ECCAC254B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

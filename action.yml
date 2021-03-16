@@ -1,0 +1,23 @@
+name: 'Microsoft Crank'
+description: 'From a GitHub pull request, an admin can comment and trigger a benchmark test run for a given scenario.'
+branding:
+  icon: zap
+  color: purple
+inputs:
+  config:
+    description: 'The benchmark configuration file or url.'
+    required: true
+  scenario:
+    description: 'The scenario to execute.'
+    required: true
+outputs:
+  summary-message:
+    description: 'A detailed summary of all the projects that were flagged.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+  - '--config'
+  - ${{ inputs.config }}
+  - '--scenario'
+  - ${{ inputs.scenario }}
